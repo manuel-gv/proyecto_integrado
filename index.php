@@ -60,15 +60,9 @@
 												<p><?php _e( 'This is the error message in the index.php template.', 'bonestheme' ); ?></p>
 										</footer>
 									</article>
-
 							<?php endif; ?>
-
-
 						</main>
-
 				</div>
-
 			</div>
-
 
 <?php get_footer(); ?>

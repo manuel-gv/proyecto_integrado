@@ -1362,7 +1362,12 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  background-color: aqua; }
+  height: 40em;
+  background: url(../images/header.jpg);
+  background-size: cover; }
+  .header img {
+    height: 100%;
+    width: 100; }
 
 #logo {
   margin: 0.75em 0; }
