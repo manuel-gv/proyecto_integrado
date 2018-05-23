@@ -276,5 +276,4 @@ function telefono_shortcode( $atts ) {
 }
 add_shortcode( 'telefono', 'telefono_shortcode' );
 */
-
 /* DON'T DELETE THIS CLOSING TAG */ ?>
