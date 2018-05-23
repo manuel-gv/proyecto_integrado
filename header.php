@@ -32,12 +32,11 @@
 
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/owl.theme.default.min.css">
-		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.min.js"></script>
-		<script src="<?php echo get_template_directory_uri(); ?>/library/js/owl.carousel.min.js"></script>
-		
+
 		<!--llamar al Carousel -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/main.js"></script>
-		
+		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/library/js/owl.carousel.min.js"></script>
 		
 	</head>
 	<body <?php body_class(); ?>>
