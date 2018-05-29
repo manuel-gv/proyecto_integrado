@@ -3,7 +3,7 @@
 		<meta charset="utf-8">
 
 
-		<title><?php wp_title(''); ?></title>
+		<title>Deportes Ayto Huelma</title>
 
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
@@ -43,8 +43,7 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.fancybox.min.js"></script>
 
 		<!--Google Font-->
-		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-		
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">			
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -55,7 +54,7 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></p>
+					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow">Deportes Ayto Huelma</a></p>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

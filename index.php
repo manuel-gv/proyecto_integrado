@@ -3,7 +3,7 @@
 	<div id="galeria" class="section">
 		<div class="cf">
 			<div id="inner-galeria" class="wrap cf">
-			    <h4>AQUI VA EL TÍTUILO DE LA GALERÍA DE IMÁGENES</h4>
+			    <h2>CONOCE NUESTRAS INSTALACIONES</h2>
 			</div>
 
 			<div id="carousel">
@@ -40,7 +40,7 @@
 
     <div id="noticias" class="section">
         <div id="inner-noticias" class="wrap cf">
-            <div class="m-all t-all d-all"><span><?php echo __('NOTICIAS DESTACADAS', 'neoptheme');  ?></span></div>
+            <div class="m-all t-all d-all"><h2><?php echo __('ÚLTIMAS NOTICIAS', 'neoptheme');  ?></h2></div>
             <div id="noticia" class="m-all t-all d-all">
             <?php 
                 $args = array(

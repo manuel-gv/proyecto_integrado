@@ -1362,7 +1362,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  height: 40em;
+  height: 36em;
   background: url(../images/header.jpg);
   background-size: cover; }
   .header img {
@@ -1420,21 +1420,41 @@ POSTS & CONTENT STYLES
 .home #galeria {
   padding-top: 1em;
   padding-bottom: 1em; }
+  .home #galeria h2 {
+    text-align: center;
+    color: #a07413;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold; }
   .home #galeria #carousel .item img {
     width: 468px;
-    height: 312px; }
+    height: 250px; }
 .home #noticias {
   padding-top: 1em;
   padding-bottom: 1em;
-  background: url(../images/cesped3.jpg);
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 1.5em; }
+  .home #noticias h2 {
+    text-align: center;
+    color: #a07413;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold; }
+  .home #noticias h3 {
+    text-align: center; }
   .home #noticias #noticia .noticias-card {
     background-color: white;
     box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75); }
     .home #noticias #noticia .noticias-card img {
       width: 100%; }
+    .home #noticias #noticia .noticias-card p {
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 2em;
+      text-align: justify;
+      font-size: 12px;
+      font-family: 'Varela Round', sans-serif; }
+    .home #noticias #noticia .noticias-card a {
+      color: #54920a; }
 
 #content {
   margin-top: 1.5em; }
