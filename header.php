@@ -30,13 +30,20 @@
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
 
+		<!--llamar al Carousel -->
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/owl.carousel.min.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/owl.theme.default.min.css">
-
-		<!--llamar al Carousel -->
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/main.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/owl.carousel.min.js"></script>
+
+
+		<!--fancyBox files-->
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/library/css/jquery.fancybox.min.css" />
+		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.fancybox.min.js"></script>
+
+		<!--Google Font-->
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 		
 	</head>
 	<body <?php body_class(); ?>>

@@ -75,7 +75,7 @@ if ( ! isset( $content_width ) ) {
 // Thumbnail sizes
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
-add_image_size('thumb-gallery',  314, 209, true);
+add_image_size('thumb-gallery',  314, 174, true);
 /*
 to add more sizes, simply copy a line from above
 and change the dimensions & name. As long as you
