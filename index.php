@@ -3,7 +3,7 @@
 	<div id="galeria" class="section">
 		<div class="cf">
 			<div id="inner-galeria" class="wrap cf">
-			<h4>AQUI VA EL TÍTUILO DE LA GALERÍA DE IMÁGENES</h4>
+			    <h4>AQUI VA EL TÍTUILO DE LA GALERÍA DE IMÁGENES</h4>
 			</div>
 
 			<div id="carousel">
@@ -18,4 +18,31 @@
 		</div>
 	</div>
 
+    <div id="noticias" class="section">
+        <div id="inner-noticias" class="wrap cf">
+            <div class="m-all t-all d-all"><span><?php echo __('NOTICIAS DESTACADAS', 'neoptheme');  ?></span></div>
+            <?php 
+                $args = array(
+                    'posts_per_page' => '3');
+
+                $query= new WP_Query($args);
+
+                if($query->have_posts()){
+
+                    while ($query->have_posts()){
+                        $query->the_post();
+                        ?>
+                            <div class="m-all t-1of3 d-1of3">
+                                <?php the_post_thumbnail("thumb-gallery"); ?>
+                                <h3><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
+                                <?php the_excerpt(); ?>
+                            </div>
+                        <?php
+                    }
+                }
+            ?>
+        </div>
+    </div>
 <?php get_footer(); ?>
+
+

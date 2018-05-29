@@ -1417,6 +1417,13 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.home #noticias {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+.home #galeria {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
 #content {
   margin-top: 1.5em; }
 
