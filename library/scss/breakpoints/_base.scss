@@ -153,7 +153,7 @@ HEADER STYLES
 *********************/
 
 .header {
-	height: 36em;
+	height: 37em;
 	background: url(../images/header.jpg );
 	background-size: cover;
 	img{
@@ -258,15 +258,17 @@ POSTS & CONTENT STYLES
 *********************/
 
 .home{
+	h2{
+		text-align: center;
+		color: $yellow-dark;
+		font-family: 'Varela Round', sans-serif;
+		font-weight: bold; 
+		text-transform: uppercase;
+	}
+
 	#galeria{
-		h2{
-			text-align: center;
-			color: $yellow-dark;
-			font-family: 'Varela Round', sans-serif;
-			font-weight: bold; 
-		}
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-top: 2em;
+		padding-bottom: 2em;
 		#carousel{
 			.item{
 				img{
@@ -277,19 +279,12 @@ POSTS & CONTENT STYLES
 		}
 	}
 	#noticias{
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-top: 2em;
+		padding-bottom: 2em;
 		//background: url(../images/cesped3.jpg );
 		background-size: cover;
 		background-attachment: fixed;
 		padding-bottom: 1.5em;
-
-		h2{
-			text-align: center;
-			color: $yellow-dark;
-			font-family: 'Varela Round', sans-serif;
-			font-weight: bold; 
-		}
 		h3{
 			text-align: center;
 		}
@@ -315,6 +310,47 @@ POSTS & CONTENT STYLES
 				}
 			}
 	  	}
+	}
+	#deportes{
+		#inner-deportes{
+			padding-bottom: 70px;
+		}
+		.especialidad{
+			height: 100%;
+			background-color: black;
+			height: 210px;
+			display: flex;
+			position: relative;
+			justify-content: center;
+			align-items: center;
+			overflow: hidden;
+			.texto{
+				text-shadow: 2px 2px #000000;
+				display: inline-block;
+				text-align: center;
+				font-family: 'Times New Roman', Times, serif;
+				font-size: 2em;
+				display: table-cell;
+				vertical-align: middle;
+				position: absolute;
+				span{
+					color: white;
+				}
+			}
+		}
+		background: url(../images/cesped5.jpg );
+		background-size: cover;
+		background-attachment: fixed;
+		padding-top: 2em;
+		padding-bottom: 2em;
+		img{
+			width: 100%;
+			opacity: 0.5;
+			height: 210px;
+		}
+		img:hover { 
+			opacity: 1;
+		}
 	}
 }
 

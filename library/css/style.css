@@ -1362,7 +1362,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  height: 36em;
+  height: 37em;
   background: url(../images/header.jpg);
   background-size: cover; }
   .header img {
@@ -1417,28 +1417,24 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+.home h2 {
+  text-align: center;
+  color: #a07413;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase; }
 .home #galeria {
-  padding-top: 1em;
-  padding-bottom: 1em; }
-  .home #galeria h2 {
-    text-align: center;
-    color: #a07413;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: bold; }
+  padding-top: 2em;
+  padding-bottom: 2em; }
   .home #galeria #carousel .item img {
     width: 468px;
     height: 250px; }
 .home #noticias {
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 1.5em; }
-  .home #noticias h2 {
-    text-align: center;
-    color: #a07413;
-    font-family: 'Varela Round', sans-serif;
-    font-weight: bold; }
   .home #noticias h3 {
     text-align: center; }
   .home #noticias #noticia .noticias-card {
@@ -1455,6 +1451,40 @@ POSTS & CONTENT STYLES
       font-family: 'Varela Round', sans-serif; }
     .home #noticias #noticia .noticias-card a {
       color: #54920a; }
+.home #deportes {
+  background: url(../images/cesped5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 2em;
+  padding-bottom: 2em; }
+  .home #deportes #inner-deportes {
+    padding-bottom: 70px; }
+  .home #deportes .especialidad {
+    height: 100%;
+    background-color: black;
+    height: 210px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+    .home #deportes .especialidad .texto {
+      text-shadow: 2px 2px #000000;
+      display: inline-block;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2em;
+      display: table-cell;
+      vertical-align: middle;
+      position: absolute; }
+      .home #deportes .especialidad .texto span {
+        color: white; }
+  .home #deportes img {
+    width: 100%;
+    opacity: 0.5;
+    height: 210px; }
+  .home #deportes img:hover {
+    opacity: 1; }
 
 #content {
   margin-top: 1.5em; }
@@ -2033,6 +2063,9 @@ you can add resource intensive styles.
   be seen on the Desktop.
   
   ******************************************************************/
+  #deportes .wrap {
+    width: 1330px !important; }
+
   .wrap {
     width: 1040px; } }
 /*********************

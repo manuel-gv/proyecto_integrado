@@ -38,6 +38,46 @@
 		</div>
 	</div>
 
+    <div id="deportes" class="section">
+        <div id="inner-deportes" class="wrap cf">
+            <div class="m-all t-all d-all">
+                <h2>Deporte como forma de vida</h2>
+            </div>
+            <div class="m-all t-1of4 d-1of4 last-col">
+                <div class="especialidad">
+                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/futbol_2.jpg" alt="futbol"/>
+                    <div class="texto">
+                    <span>Futbol</span>
+                    </div>
+                </div>
+            </div>
+            <div class="m-all t-1of4 d-1of4 last-col">
+                <div class="especialidad">  
+                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_3.jpg" alt="padel"/>
+                    <div class="texto">
+                    <span>Padel</span>
+                    </div>
+                </div>
+            </div>
+            <div class="m-all t-1of4 d-1of4 last-col">
+                <div class="especialidad">  
+                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/balonmano.jpg" alt="balonmano"/>
+                    <div class="texto">
+                    <span>Balonmano</span>
+                    </div>
+                </div>
+            </div>
+            <div class="m-all t-1of4 d-1of4 last-col">
+                <div class="especialidad">  
+                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/atletismo.jpg" alt="atletismo"/>
+                    <div class="texto">
+                    <span>Atletismo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="noticias" class="section">
         <div id="inner-noticias" class="wrap cf">
             <div class="m-all t-all d-all"><h2><?php echo __('ÚLTIMAS NOTICIAS', 'neoptheme');  ?></h2></div>
@@ -67,6 +107,7 @@
             </div>
         </div>
     </div>
+
 <?php get_footer(); ?>
 
 
