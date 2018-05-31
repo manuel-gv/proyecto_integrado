@@ -43,7 +43,9 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.fancybox.min.js"></script>
 
 		<!--Google Font-->
-		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">			
+		<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">	
+		<!--Font Awesome-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</head>
 	<body <?php body_class(); ?>>
 
@@ -54,7 +56,7 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow">Deportes Ayto Huelma</a></p>
+					<p id="logo" class="h1"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/Logo-Huelma.png" alt="balonmano"/></a></p>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

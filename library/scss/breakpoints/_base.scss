@@ -153,12 +153,12 @@ HEADER STYLES
 *********************/
 
 .header {
-	height: 37em;
+	height: 45em;
 	background: url(../images/header.jpg );
 	background-size: cover;
 	img{
 		
-		height: 100%; width:100;
+		height: 100%; width:40%;
 	}
 }
 
@@ -261,7 +261,7 @@ POSTS & CONTENT STYLES
 	h2{
 		text-align: center;
 		color: $yellow-dark;
-		font-family: 'Varela Round', sans-serif;
+		font-family: 'Roboto Slab', serif;
 		font-weight: bold; 
 		text-transform: uppercase;
 	}
@@ -278,6 +278,33 @@ POSTS & CONTENT STYLES
 			}
 		}
 	}
+	#reserva{
+		padding-top: 2em;
+    	padding-bottom: 2em;
+		background-color: #181a2d;
+		//height: 10vh;
+		#inner-reserva{
+			.far{
+				font-size: 5vw;
+				color: white;
+				display: block;
+				text-align: center;
+				padding-bottom: 0.5em;
+			}
+			span{
+				display: block;
+				text-align: center;
+				border-style: solid;
+				border-width: 5px;
+				width: 25vw;
+				margin: auto;
+				font-size: 2em;
+				background-color: #a07413;
+				color: white;
+			}
+		}
+	}
+
 	#noticias{
 		padding-top: 2em;
 		padding-bottom: 2em;
@@ -302,7 +329,7 @@ POSTS & CONTENT STYLES
 					padding-bottom: 2em;
 					text-align: justify;
 					font-size: 12px;
-					font-family: 'Varela Round', sans-serif;
+					font-family: 'Roboto', sans-serif;
 				}
 				a{
 					color: $green-ayto;
@@ -314,8 +341,13 @@ POSTS & CONTENT STYLES
 	#deportes{
 		#inner-deportes{
 			padding-bottom: 70px;
+			h2{
+				color: $white-ayto;
+				text-shadow: 2px 2px #000000;
+			}
 		}
 		.especialidad{
+			
 			height: 100%;
 			background-color: black;
 			height: 210px;
@@ -324,6 +356,9 @@ POSTS & CONTENT STYLES
 			justify-content: center;
 			align-items: center;
 			overflow: hidden;
+			a {
+				height: 210px;
+			}
 			.texto{
 				text-shadow: 2px 2px #000000;
 				display: inline-block;
@@ -335,6 +370,7 @@ POSTS & CONTENT STYLES
 				position: absolute;
 				span{
 					color: white;
+					font-family: 'Roboto', sans-serif;
 				}
 			}
 		}

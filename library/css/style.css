@@ -1362,12 +1362,12 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  height: 37em;
+  height: 45em;
   background: url(../images/header.jpg);
   background-size: cover; }
   .header img {
     height: 100%;
-    width: 100; }
+    width: 40%; }
 
 #logo {
   margin: 0.75em 0; }
@@ -1420,7 +1420,7 @@ POSTS & CONTENT STYLES
 .home h2 {
   text-align: center;
   color: #a07413;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Roboto Slab', serif;
   font-weight: bold;
   text-transform: uppercase; }
 .home #galeria {
@@ -1429,6 +1429,26 @@ POSTS & CONTENT STYLES
   .home #galeria #carousel .item img {
     width: 468px;
     height: 250px; }
+.home #reserva {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #181a2d; }
+  .home #reserva #inner-reserva .far {
+    font-size: 5vw;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 0.5em; }
+  .home #reserva #inner-reserva span {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    width: 25vw;
+    margin: auto;
+    font-size: 2em;
+    background-color: #a07413;
+    color: white; }
 .home #noticias {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -1448,7 +1468,7 @@ POSTS & CONTENT STYLES
       padding-bottom: 2em;
       text-align: justify;
       font-size: 12px;
-      font-family: 'Varela Round', sans-serif; }
+      font-family: 'Roboto', sans-serif; }
     .home #noticias #noticia .noticias-card a {
       color: #54920a; }
 .home #deportes {
@@ -1459,6 +1479,9 @@ POSTS & CONTENT STYLES
   padding-bottom: 2em; }
   .home #deportes #inner-deportes {
     padding-bottom: 70px; }
+    .home #deportes #inner-deportes h2 {
+      color: #ffffff;
+      text-shadow: 2px 2px #000000; }
   .home #deportes .especialidad {
     height: 100%;
     background-color: black;
@@ -1468,6 +1491,8 @@ POSTS & CONTENT STYLES
     justify-content: center;
     align-items: center;
     overflow: hidden; }
+    .home #deportes .especialidad a {
+      height: 210px; }
     .home #deportes .especialidad .texto {
       text-shadow: 2px 2px #000000;
       display: inline-block;
@@ -1478,7 +1503,8 @@ POSTS & CONTENT STYLES
       vertical-align: middle;
       position: absolute; }
       .home #deportes .especialidad .texto span {
-        color: white; }
+        color: white;
+        font-family: 'Roboto', sans-serif; }
   .home #deportes img {
     width: 100%;
     opacity: 0.5;

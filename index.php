@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
+    <div id="reserva" class="section">
+        <div id="inner-reserva" class="wrap cf">
+        <i class="far fa-calendar-alt"></i>
+        <span>Reserva tu pista ahora</span>
+        </div>
+    </div>
+
 	<div id="galeria" class="section">
 		<div class="cf">
 			<div id="inner-galeria" class="wrap cf">
@@ -45,7 +52,7 @@
             </div>
             <div class="m-all t-1of4 d-1of4 last-col">
                 <div class="especialidad">
-                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/futbol_2.jpg" alt="futbol"/>
+                    <a href="<?php echo get_template_directory_uri(); ?>/cp-huelma"><img src="<?php echo get_template_directory_uri(); ?>/library/images/futbol_2.jpg" alt="futbol"/></a>
                     <div class="texto">
                     <span>Futbol</span>
                     </div>
@@ -53,7 +60,7 @@
             </div>
             <div class="m-all t-1of4 d-1of4 last-col">
                 <div class="especialidad">  
-                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_3.jpg" alt="padel"/>
+                <a href="<?php echo get_template_directory_uri(); ?>/club-padel-huelma"><img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_3.jpg" alt="padel"/></a>
                     <div class="texto">
                     <span>Padel</span>
                     </div>
@@ -61,7 +68,7 @@
             </div>
             <div class="m-all t-1of4 d-1of4 last-col">
                 <div class="especialidad">  
-                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/balonmano.jpg" alt="balonmano"/>
+                <a href="<?php echo get_template_directory_uri(); ?>/balonmano-huelma"> <img src="<?php echo get_template_directory_uri(); ?>/library/images/balonmano.jpg" alt="balonmano"/></a>
                     <div class="texto">
                     <span>Balonmano</span>
                     </div>
@@ -69,7 +76,7 @@
             </div>
             <div class="m-all t-1of4 d-1of4 last-col">
                 <div class="especialidad">  
-                    <img src="<?php echo get_template_directory_uri(); ?>/library/images/atletismo.jpg" alt="atletismo"/>
+                <a href="<?php echo get_template_directory_uri(); ?>/club-atletismo-huelma"><img src="<?php echo get_template_directory_uri(); ?>/library/images/atletismo.jpg" alt="atletismo"/></a>
                     <div class="texto">
                     <span>Atletismo</span>
                     </div>
