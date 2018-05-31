@@ -1308,12 +1308,9 @@ LAYOUT & GRID STYLES
 LINK STYLES
 *********************/
 a, a:visited {
-  color: #f01d4f;
   /* on hover */
   /* on click */
   /* mobile tap color */ }
-  a:hover, a:focus, a:visited:hover, a:visited:focus {
-    color: #d10e3c; }
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1434,7 +1431,7 @@ POSTS & CONTENT STYLES
   padding-bottom: 2em;
   background-color: #181a2d; }
   .home #reserva #inner-reserva .far {
-    font-size: 5vw;
+    font-size: 4vw;
     color: white;
     display: block;
     text-align: center;
@@ -1790,8 +1787,6 @@ COMMENT FORM STYLES
   color: #9fa6b4;
   font-style: italic;
   margin: 0; }
-  .logged-in-as a {
-    color: #5c6b80; }
 
 .comment-form-comment {
   margin: 1.5em 0 0.75em; }
@@ -1841,6 +1836,20 @@ FOOTER STYLES
   clear: both;
   background-color: #323944;
   color: #f8f9fa; }
+  .footer span {
+    display: block;
+    float: right; }
+  .footer i {
+    font-size: 2em;
+    padding-right: 1em; }
+  .footer a {
+    color: white; }
+  .footer .fa-twitter:hover {
+    color: #0084b4; }
+  .footer .fa-instagram:hover {
+    color: #bc2a8d !important; }
+  .footer .fa-facebook-f:hover {
+    color: #3b5998; }
 
 /*
 if you checked out the link above:

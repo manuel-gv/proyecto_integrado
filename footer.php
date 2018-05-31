@@ -18,12 +18,15 @@
 						)); ?>
 					</nav>
 
-					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
+					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Deportes Ayto Huelma.<span>Diseño Web & Programación by Manuel García</span></p>
 
+					<a href="https://www.instagram.com/manuel_huelma/"><i class="fab fa-instagram"></i></a>
+					<a href="https://twitter.com/manuel_huelma"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.facebook.com/manuel.garciavalenzuela.7"><i class="fab fa-facebook-f"></i></a>
 				</div>
 
 			</footer>
-
+			
 		</div>
 
 		<?php // all js scripts are loaded in library/bones.php ?>

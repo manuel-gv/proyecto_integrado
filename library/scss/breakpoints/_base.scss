@@ -80,11 +80,11 @@ LINK STYLES
 *********************/
 
 a, a:visited {
-	color: $link-color;
+	//color: $link-color;
 
 	/* on hover */
 	&:hover, &:focus {
-		color: $link-hover;
+		//color: $link-hover;
 	}
 
 	/* on click */
@@ -285,7 +285,7 @@ POSTS & CONTENT STYLES
 		//height: 10vh;
 		#inner-reserva{
 			.far{
-				font-size: 5vw;
+				font-size: 4vw;
 				color: white;
 				display: block;
 				text-align: center;
@@ -408,7 +408,6 @@ POSTS & CONTENT STYLES
 			footer {
 				padding: 1.5em;
 				border-top: 1px solid $light-gray;
-
 				p {
 					margin: 0;
 				}
@@ -913,7 +912,7 @@ COMMENT FORM STYLES
 		margin: 0;
 
 		a {
-			color: $text-color;
+			//color: $text-color;
 		}
 	}
 
@@ -1003,6 +1002,27 @@ FOOTER STYLES
 	clear: both;
 	background-color: $black;
 	color: $light-gray;
+	span{
+		display: block;
+		float: right
+	}	
+	i{
+		font-size: 2em;
+		padding-right: 1em;
+	}
+	a{
+		color: white;
+	}
+	.fa-twitter:hover{
+		color: #0084b4;
+	}
+	.fa-instagram:hover{
+		color: #bc2a8d !important;
+	}
+	.fa-facebook-f:hover{
+		color: #3b5998;
+	}
+	
 }
 
 	/*
