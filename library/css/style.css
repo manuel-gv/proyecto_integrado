@@ -1535,6 +1535,30 @@ POSTS & CONTENT STYLES
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
 /* general post style */
+.page #container .header {
+  height: 20em !important; }
+.page .header-image {
+  position: relative;
+  margin-bottom: 80px; }
+  .page .header-image img {
+    height: 100%;
+    width: 100%; }
+  .page .header-image h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+    background-color: #181a2da8;
+    display: inline-block;
+    padding: 10px;
+    position: relative; }
+.page .header-image__block {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  text-align: center; }
+
 /* general article on a page style */
 /* general style on an attatchment */
 /* sticky post style */
@@ -1834,13 +1858,13 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #181a2d;
   color: #f8f9fa; }
   .footer span {
     display: block;
     float: right; }
   .footer i {
-    font-size: 2em;
+    font-size: 1.5em;
     padding-right: 1em; }
   .footer a {
     color: white; }

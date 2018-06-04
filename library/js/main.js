@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 				items:1
 			},
 			768:{
-				items:4
+				items:2
 			},
 			1030:{
 				items:4
