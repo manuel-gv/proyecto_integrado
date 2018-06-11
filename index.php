@@ -16,18 +16,18 @@
 			<div id="carousel">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel.jpg" alt="padel"/>
+                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_1.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_1.jpg" alt="padel"/>
                         </a>
                     </div>
                     <div class="item">
-                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/tenis.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/tenis.jpg" alt="tenis"/> 
+                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_2.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_2.jpg" alt="tenis"/> 
                         </a>
                     </div>
                     <div class="item">
-                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/basket.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/basket.jpg" alt="basket"/>
+                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_5.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_5.jpg" alt="basket"/>
                         </a>
                     </div>
                     <div class="item">
