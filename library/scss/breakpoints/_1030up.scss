@@ -52,3 +52,33 @@ NAVIGATION STYLES
   display: block;
 }
   
+
+/*********************
+FOOTER STYLES
+*********************/
+
+.footer {
+  p{
+    text-align: left;
+  }
+	clear: both;
+	background-color: $morado-ayto;
+	color: $light-gray;
+	#inner-footer{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	span{
+		display: block;
+		float: right
+  }	
+}
+
+/*********************
+SINGLE STYLES
+*********************/
+.single{
+  main{
+		width: 100%;
+	}
+}

@@ -1273,6 +1273,26 @@ style a page via class
 /* no results search page */
 /* individual paged search (i.e. body.search-paged-3) */
 /* 404 page */
+.single .article-footer {
+  display: none; }
+.single .entry-content {
+  background-color: white; }
+  .single .entry-content p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify; }
+  .single .entry-content h2, .single .entry-content h3 {
+    color: #323944;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-transform: uppercase; }
+.single .article-header h1 {
+  color: #a07413;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  text-transform: uppercase; }
+.single .article-header {
+  text-align: center; }
+
 /* single post page */
 /* individual post page by id (i.e. body.postid-73) */
 /* individual paged single (i.e. body.single-paged-3) */
@@ -1437,16 +1457,17 @@ POSTS & CONTENT STYLES
     display: block;
     text-align: center;
     padding-bottom: 0.5em; }
-  .home #reserva #inner-reserva span {
+  .home #reserva #inner-reserva a {
     display: block;
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    width: 75vw;
     margin: auto;
     font-size: 2em;
     background-color: #a07413;
-    color: white; }
+    color: white;
+    text-decoration: none;
+    padding: 0.3em; }
 .home #noticias {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -1873,12 +1894,13 @@ FOOTER STYLES
   clear: both;
   background-color: #181a2d;
   color: #f8f9fa; }
+  .footer p {
+    text-align: center; }
   .footer #inner-footer {
     padding-top: 1em;
     padding-bottom: 1em; }
   .footer span {
-    display: block;
-    float: right; }
+    display: block; }
   .footer i {
     font-size: 1.5em;
     padding-right: 1em; }
@@ -2172,7 +2194,29 @@ you can add resource intensive styles.
   NAVIGATION STYLES
   *********************/
   .nav {
-    display: block; } }
+    display: block; }
+
+  /*********************
+  FOOTER STYLES
+  *********************/
+  .footer {
+    clear: both;
+    background-color: #181a2d;
+    color: #f8f9fa; }
+    .footer p {
+      text-align: left; }
+    .footer #inner-footer {
+      padding-top: 1em;
+      padding-bottom: 1em; }
+    .footer span {
+      display: block;
+      float: right; }
+
+  /*********************
+  SINGLE STYLES
+  *********************/
+  .single main {
+    width: 100%; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.

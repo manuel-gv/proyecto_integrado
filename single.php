@@ -36,16 +36,11 @@
 									<section class="entry-content">
 										<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
 									</section>
-									<footer class="article-footer">
-											<p><?php _e( 'This is the error message in the single.php template.', 'bonestheme' ); ?></p>
-									</footer>
 							</article>
 
 						<?php endif; ?>
 
 					</main>
-
-					<?php get_sidebar(); ?>
 
 				</div>
 

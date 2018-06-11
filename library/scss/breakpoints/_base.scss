@@ -40,8 +40,41 @@ style a page via class
 	.search-results {}              /* search result page */
 	.search-no-results {}           /* no results search page */
 	.search-paged-1 {}              /* individual paged search (i.e. body.search-paged-3) */
-.error404 {}                      /* 404 page */
-.single {}                        /* single post page */
+.error404 {}  
+                    /* 404 page */
+.single {
+	.article-footer{
+		display: none;
+		
+	}
+	.entry-content{
+		background-color: white;
+		p{
+			font-family: 'Roboto', sans-serif;
+    		text-align: justify;
+		}
+		h2,h3{
+			color: $black;
+			font-family: 'Roboto Slab', serif;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		
+
+	}
+	.article-header{
+		h1{
+			color: #a07413;
+			font-family: 'Roboto Slab', serif;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+	}
+	.article-header{
+		text-align: center;
+	}
+
+}                        /* single post page */
 	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
 	.single-paged-1 {}              /* individual paged single (i.e. body.single-paged-3) */
 .attachment {}                    /* attatchment page */
@@ -291,16 +324,18 @@ POSTS & CONTENT STYLES
 				text-align: center;
 				padding-bottom: 0.5em;
 			}
-			span{
+			a{
 				display: block;
 				text-align: center;
 				border-style: solid;
 				border-width: 5px;
-				width: 75vw;
+				//width: 75vw;
 				margin: auto;
 				font-size: 2em;
 				background-color: #a07413;
 				color: white;
+				text-decoration: none;
+				padding: 0.3em;
 			}
 		}
 	}
@@ -1046,6 +1081,9 @@ FOOTER STYLES
 *********************/
 
 .footer {
+	p{
+		text-align: center;
+	}
 	clear: both;
 	background-color: $morado-ayto;
 	color: $light-gray;
@@ -1055,7 +1093,7 @@ FOOTER STYLES
 	}
 	span{
 		display: block;
-		float: right
+		//float: right
 	}	
 	i{
 		font-size: 1.5em;

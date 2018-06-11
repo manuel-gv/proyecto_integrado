@@ -3,7 +3,7 @@
     <div id="reserva" class="section">
         <div id="inner-reserva" class="wrap cf">
         <i class="far fa-calendar-alt"></i>
-        <span>Reserva tu pista ahora</span>
+        <a href="<?php echo get_template_directory_uri(); ?>/reservas">Reserva tu pista ahora</a>
         </div>
     </div>
 
