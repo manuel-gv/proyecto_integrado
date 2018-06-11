@@ -1359,7 +1359,7 @@ h5, .h5 {
 HEADER STYLES
 *********************/
 .header {
-  height: 45em;
+  height: 15em;
   background: url(../images/header.jpg);
   background-size: cover; }
   .header img {
@@ -1382,6 +1382,7 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 .nav {
+  display: none;
   border-bottom: 0;
   margin: 0;
   /* end .menu li */
@@ -1431,7 +1432,7 @@ POSTS & CONTENT STYLES
   padding-bottom: 2em;
   background-color: #181a2d; }
   .home #reserva #inner-reserva .far {
-    font-size: 4vw;
+    font-size: 10vh;
     color: white;
     display: block;
     text-align: center;
@@ -1441,7 +1442,7 @@ POSTS & CONTENT STYLES
     text-align: center;
     border-style: solid;
     border-width: 5px;
-    width: 25vw;
+    width: 75vw;
     margin: auto;
     font-size: 2em;
     background-color: #a07413;
@@ -1478,7 +1479,8 @@ POSTS & CONTENT STYLES
     padding-bottom: 70px; }
     .home #deportes #inner-deportes h2 {
       color: #ffffff;
-      text-shadow: 2px 2px #000000; }
+      text-shadow: 2px 2px #000000;
+      font-size: 1.5em; }
   .home #deportes .especialidad {
     height: 100%;
     background-color: black;
@@ -1513,10 +1515,10 @@ POSTS & CONTENT STYLES
   margin-top: 1.5em; }
 
 .hentry {
-  background-color: #fff;
+  /* background-color: #fff; */
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #ccc; }
+  /* border: 1px solid #ccc; */ }
   .hentry header {
     border-bottom: 1px solid #f8f9fa;
     padding: 1.5em; }
@@ -1558,6 +1560,17 @@ POSTS & CONTENT STYLES
   top: 50%;
   left: 10%;
   text-align: center; }
+.page .entry-content {
+  background-color: white; }
+  .page .entry-content h3 {
+    text-align: center;
+    color: #a07413;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .page .entry-content p {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify; }
 
 /* general article on a page style */
 /* general style on an attatchment */
@@ -1860,6 +1873,9 @@ FOOTER STYLES
   clear: both;
   background-color: #181a2d;
   color: #f8f9fa; }
+  .footer #inner-footer {
+    padding-top: 1em;
+    padding-bottom: 1em; }
   .footer span {
     display: block;
     float: right; }
@@ -1867,7 +1883,8 @@ FOOTER STYLES
     font-size: 1.5em;
     padding-right: 1em; }
   .footer a {
-    color: white; }
+    color: white;
+    float: right; }
   .footer .fa-twitter:hover {
     color: #0084b4; }
   .footer .fa-instagram:hover {
@@ -2000,6 +2017,7 @@ you can add resource intensive styles.
   NAVIGATION STYLES
   *********************/
   .nav {
+    display: block;
     border: 0;
     /* end .menu ul li */
     /* highlight current page */
@@ -2104,7 +2122,16 @@ you can add resource intensive styles.
     the footer.
     */ }
 
-  /* end .footer-links */ }
+  /* end .footer-links */
+  #reserva #inner-reserva span {
+    width: 60vw !important;
+    font-size: 2.5em !important; }
+
+  #deportes .especialidad {
+    height: 149px !important; }
+
+  .header {
+    height: 42em; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and
@@ -2122,11 +2149,30 @@ you can add resource intensive styles.
   be seen on the Desktop.
   
   ******************************************************************/
+  /*********************
+  GENERAL STYLES
+  *********************/
   #deportes .wrap {
     width: 1330px !important; }
 
+  #reserva #inner-reserva span {
+    width: 30vw  !important;
+    font-size: 2.5em !important; }
+
+  #deportes .especialidad {
+    height: 210px !important; }
+
   .wrap {
-    width: 1040px; } }
+    width: 1040px; }
+
+  .header {
+    height: 45em; }
+
+  /*********************
+  NAVIGATION STYLES
+  *********************/
+  .nav {
+    display: block; } }
 /*********************
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
@@ -2141,7 +2187,10 @@ This is for the larger monitors and possibly full screen viewers.
   You can add some advanced styles here if you like. This kicks in
   on larger screens.
   
-  ******************************************************************/ }
+  ******************************************************************/
+  .home #reserva span {
+    width: 50vw;
+    font-size: 2.5em; } }
 /*********************
 RETINA (2x RESOLUTION DEVICES)
 This applies to the retina iPhone (4s) and iPad (2,3) along with
