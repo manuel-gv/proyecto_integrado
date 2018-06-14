@@ -17,27 +17,27 @@
                 <div class="owl-carousel owl-theme">
                     <div class="item">
                         <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_1.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_1.jpg" alt="padel"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_1.jpg" alt="padel_1"/>
                         </a>
                     </div>
                     <div class="item">
                         <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_2.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_2.jpg" alt="tenis"/> 
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_2.jpg" alt="padel_2"/> 
                         </a>
                     </div>
                     <div class="item">
                         <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/padel_5.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_5.jpg" alt="basket"/>
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/padel_5.jpg" alt="padel_5"/>
                         </a>
                     </div>
                     <div class="item">
-                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/balonmano.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/balonmano.jpg" alt="balonmano"/>
+                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/pabellon_1.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/pabellon_1.jpg" alt="pabellon_1"/>
                         </a>
                     </div>
                     <div class="item">
-                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/futbol.jpg">
-                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/futbol.jpg" alt="futbol"/>
+                        <a data-fancybox="gallery" href="<?php echo get_template_directory_uri(); ?>/library/images/pabellon_2.jpg">
+                            <img src="<?php echo get_template_directory_uri(); ?>/library/images/pabellon_2.jpg" alt="pabellon_2"/>
                         </a>
                     </div>
                 </div>
