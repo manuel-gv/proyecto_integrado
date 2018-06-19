@@ -1,3 +1,8 @@
+<?php
+/*
+ Template Name: archive name
+*/
+?>
 <?php get_header(); ?>
 
 			<div id="content">

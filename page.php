@@ -11,7 +11,7 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 							<section class="header-image">
 
-								<?php the_post_thumbnail(""); ?>
+								<?php the_post_thumbnail("thumb-page"); ?>
 								<div class="header-image__block">
 									<h2 class="header-image__text text-center"><?php the_title(); ?></h2>
 								</div>

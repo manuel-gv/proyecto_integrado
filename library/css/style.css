@@ -2041,7 +2041,7 @@ you can add resource intensive styles.
   NAVIGATION STYLES
   *********************/
   .nav {
-    display: block;
+    display: none;
     border: 0;
     /* end .menu ul li */
     /* highlight current page */
