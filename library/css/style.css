@@ -1429,9 +1429,16 @@ and more scalable.
       the style.scss file where it's relevant. We want to
       keep this file as small as possible!
       */ }
-    .nav li ul.sub-menu li a,
-    .nav li ul.children li a {
-      padding-left: 30px; }
+    .nav li ul.sub-menu,
+    .nav li ul.children {
+      background: #181a2d; }
+      .nav li ul.sub-menu :hover,
+      .nav li ul.children :hover {
+        background: #a07413; }
+      .nav li ul.sub-menu li a,
+      .nav li ul.children li a {
+        padding-left: 30px;
+        text-decoration: none; }
 
 /* end .nav */
 /*********************

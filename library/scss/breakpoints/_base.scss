@@ -253,13 +253,17 @@ and more scalable.
 		depend on the project. Here's some great info on it:
 		http://www.alistapart.com/articles/organizing-mobile/
 		*/
-		ul.sub-menu,
+		ul.sub-menu,	
 		ul.children {
-
+			background: $morado-ayto;
+			:hover{
+				background: #a07413;
+			}
 			li {
 
 				a {
 					padding-left: 30px;
+					text-decoration: none;
 
 					&:hover,
 					&:focus {}
